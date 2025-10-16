@@ -1,0 +1,63 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.heading {
+  font-family: "Indie Flower", serif;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+/* Buttons */
+#buttons {
+  gap: 10px;
+  padding-top: 5px;
+  label {
+    border: 1px solid rgb(37, 33, 33);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: rgb(37, 33, 33);
+      color: white;
+    }
+  }
+  input {
+    display: none;
+  }
+  div:has(input:checked) label {
+    background-color: rgb(37, 33, 33);
+    color: white;
+  }
+}
+
+/* Menu-list */
+#menu-list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding: 40px 160px 0;
+  gap: 40px;
+}
+
+#card img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* media */
+@media (max-width: 768px) {
+  #card {
+    max-width: 400px;
+  }
+  #card img {
+    width: 110%;
+    height: 240px;
+  }
+}
