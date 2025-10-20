@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                                             //selectedId'e göre arayüzü filtrele ve renderla
                                             const filtred = data.filter((item) => item.category == selected);
-                                            console.log(filtred);
 
                                             //filtrelenen elemanları arayüze renderla
                                             renderCard(filtred);
