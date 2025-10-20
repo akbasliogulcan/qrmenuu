@@ -1,6 +1,8 @@
 QR Menu Application
 🚀 Overview
 
+live : https://menuuqrr.netlify.app/index.html
+
 This project is a web-based menu application designed for cafés, restaurants or similar food & beverage venues. Visitors can browse menu items under categories (Breakfast, Lunch, Drinks etc.), view details for each item, and access the menu quickly via a QR link.
 
 🖥 Features
